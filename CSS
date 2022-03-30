@@ -1,0 +1,228 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Sora:300,700");
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --font-size-s: 24px;
+  --font-size-l: 49px;
+  --font-size-m: 26px;
+  --font-size-xs: 16px;
+  --font-family-sora: "Sora", Helvetica;
+}
+
+.imac-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 661px;
+  overflow: hidden;
+  width: 1368px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group3 {
+  height: 668px;
+  margin-left: 42px;
+  margin-top: 0;
+  position: relative;
+  width: 603px;
+}
+
+.overlap-group {
+  align-items: flex-end;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/623d0991cbf36cbaad472b7f/releases/623d09a6ecf12f908cda09e1/img/group-1@1x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 661px;
+  justify-content: flex-end;
+  left: 77px;
+  min-width: 526px;
+  padding: 37.8px 44.8px;
+  position: absolute;
+  top: 4px;
+}
+
+.ellipse-6 {
+  background-color: var(--black);
+  border-radius: 9.18px;
+  height: 18px;
+  width: 18px;
+}
+
+.ellipse {
+  background-color: var(--black);
+  border-radius: 9.18px;
+  height: 18px;
+  margin-left: 14px;
+  width: 18px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-top: 105.52px;
+  min-height: 38px;
+  width: 163px;
+}
+
+.rectangle-9 {
+  background-color: var(--black);
+  border-radius: 12px;
+  height: 14px;
+  width: 163px;
+}
+
+.rectangle-11 {
+  background-color: var(--black);
+  border-radius: 12px;
+  height: 14px;
+  margin-top: 10px;
+  width: 95px;
+}
+
+.want-to-be-a-tutor {
+  color: var(--black);
+  font-family: var(--font-family-sora);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 17.4px;
+  position: absolute;
+  top: 46px;
+  white-space: nowrap;
+}
+
+.flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 45px;
+  min-height: 544px;
+  width: 663px;
+}
+
+.learn-c-container {
+  align-self: flex-end;
+  height: 272px;
+  margin-top: 147px;
+  position: relative;
+  width: 647px;
+}
+
+.learn-calculus-quant {
+  color: #030303bd;
+  font-family: var(--font-family-sora);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29.5px;
+  position: absolute;
+  top: 130px;
+  width: 647px;
+}
+
+.learn-complex-scienc {
+  color: var(--black);
+  font-family: var(--font-family-sora);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 56.1px;
+  position: absolute;
+  top: 0;
+  width: 619px;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 16px;
+  margin-top: 32px;
+  min-width: 548px;
+}
+
+.overlap-group2 {
+  align-items: center;
+  background-color: #e1e1e1;
+  border-radius: 11px;
+  display: flex;
+  height: 64px;
+  margin-left: 9px;
+  min-width: 345px;
+  padding: 0 88px;
+}
+
+.put-down-your-email {
+  color: #686464;
+  font-family: var(--font-family-sora);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  min-height: 18px;
+  min-width: 168px;
+  white-space: nowrap;
+}
+
+.overlap-group1 {
+  align-items: center;
+  background-color: #4dd45a;
+  border-radius: 11px;
+  display: flex;
+  height: 67px;
+  min-width: 194px;
+  padding: 0 46px;
+}
+
+.early-access {
+  color: var(--white);
+  font-family: var(--font-family-sora);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 17.4px;
+  min-height: 17px;
+  min-width: 101px;
+  white-space: nowrap;
+}
+
+.graspsci {
+  color: transparent;
+  font-family: var(--font-family-sora);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 26px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.span1 {
+  color: #579feff7;
+}
+
+.span0 {
+  color: #4fda5df7;
+}
+
+.span2 {
+  color: #1a86fff7;
+}
