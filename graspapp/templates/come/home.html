@@ -1,0 +1,62 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"
+<div class="imac-1 screen">
+  <link rel="stylesheet" href="{% static 'css/style.css'%}"/>
+    <div class="flex-col">
+      <div class="graspsci">
+        <span class="span0">Grasp</span><span class="span1">.</span
+        ><span class="span2">sci</span>
+      </div>
+      <div class="learn-c-container">
+        <h1 class="learn-complex-scienc">
+          Learn complex sciences<br />in a more simpler format
+        </h1>
+        <div class="learn-calculus-quant">
+          Learn Calculus,Quantumn physics, Astronomy and even Rocket science like
+          its ABC. <br />Learn with interactions and scientifically proven
+          techniques.
+        </div>
+       
+        
+      </div>
+      <form method="POST" action=''>{% csrf_token %}
+      {{ form.non_field_errors }}
+      {{ form.email.errors }}
+      <div class='alert alert-danger alert-dismissable'>{{ field.error}}</div>
+
+      
+       
+      <div class="overlap-group-container">
+          {{ field }}
+        <div class="overlap-group1">
+          <button type="submit" class="btn btn-primary" @click.prevent="saveSdk">Early access</button>
+        </div>
+        <div class="overlap-group2">
+          <label for="inputEmail" class="sr-only">Email</label>
+         
+          <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Put down your email">       </div>
+      </div>
+      
+      {% for message in messages %}
+      <div class="alert alert-success">
+          {{ message }}
+      </div>
+      {% endfor %}
+    </div>
+    <div class="overlap-group3">
+      <div class="overlap-group">
+        <div class="ellipse-6"></div>
+        <div class="ellipse"></div>
+        <div class="ellipse"></div>
+        <div class="flex-col-1">
+          <div class="rectangle-9"></div>
+          <div class="rectangle-11"></div>
+        <form>
+        </div>
+      </div>
+      <p class="want-to-be-a-tutor">Want to be a Tutor?</p>
+    </div>
+  </div>
+  
